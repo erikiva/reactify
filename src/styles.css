@@ -173,3 +173,6 @@ input {
   padding: 5px;
   border-radius: 5px;
 }
+form {
+  margin-top: 10px;
+}
