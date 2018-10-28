@@ -163,6 +163,13 @@ progress::-moz-progress-bar {
   background-color: #45a800;
 }
 
-.modal-body img {
-  width: 80%;
+button {
+  padding: 6px;
+  border-radius: 5px;
+  margin-left: 5px;
+}
+
+input {
+  padding: 5px;
+  border-radius: 5px;
 }

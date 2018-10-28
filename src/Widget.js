@@ -33,11 +33,8 @@ export default class Widget extends Component {
     })
       .then(results => results.json())
       .then(data => {
-        const track = data.tracks.items[0];
-        // $(".title").text(track.name);
-        // $("audio").attr("src", track.preview_url);
-        // $(".author").text(track.artists[0].name);
-        // $(".cover img").attr("src", track.album.images[0].url);
+        const track = data.tracks.items[1];
+        console.log({ track });
         this.setState({
           title: track.name,
           src: track.preview_url,
@@ -61,7 +58,7 @@ export default class Widget extends Component {
 
         <form onSubmit={e => this.handleSubmit(e)}>
           <input type="text" name="query" ref={this.setTextInputRef} />
-          <input type="submit" value="Search" />
+          <button type="submit">Search</button>
         </form>
       </div>
     );
