@@ -1,13 +1,13 @@
 {
-  "main.css": "/static/css/main.a9e40e13.chunk.css",
-  "main.js": "/static/js/main.f119f405.chunk.js",
-  "main.js.map": "/static/js/main.f119f405.chunk.js.map",
-  "static/js/1.4fd91c74.chunk.js": "/static/js/1.4fd91c74.chunk.js",
-  "static/js/1.4fd91c74.chunk.js.map": "/static/js/1.4fd91c74.chunk.js.map",
-  "runtime~main.js": "/static/js/runtime~main.229c360f.js",
-  "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
-  "static/css/main.a9e40e13.chunk.css.map": "/static/css/main.a9e40e13.chunk.css.map",
-  "index.html": "/index.html",
-  "precache-manifest.93419e4ab2c11c3c34dfbf0ee4900e54.js": "/precache-manifest.93419e4ab2c11c3c34dfbf0ee4900e54.js",
-  "service-worker.js": "/service-worker.js"
+  "main.css": "/reactify/static/css/main.a9e40e13.chunk.css",
+  "main.js": "/reactify/static/js/main.f119f405.chunk.js",
+  "main.js.map": "/reactify/static/js/main.f119f405.chunk.js.map",
+  "static/js/1.4fd91c74.chunk.js": "/reactify/static/js/1.4fd91c74.chunk.js",
+  "static/js/1.4fd91c74.chunk.js.map": "/reactify/static/js/1.4fd91c74.chunk.js.map",
+  "runtime~main.js": "/reactify/static/js/runtime~main.a888779f.js",
+  "runtime~main.js.map": "/reactify/static/js/runtime~main.a888779f.js.map",
+  "static/css/main.a9e40e13.chunk.css.map": "/reactify/static/css/main.a9e40e13.chunk.css.map",
+  "index.html": "/reactify/index.html",
+  "precache-manifest.e3ba328c58d52267563d63c331ec4427.js": "/reactify/precache-manifest.e3ba328c58d52267563d63c331ec4427.js",
+  "service-worker.js": "/reactify/service-worker.js"
 }
