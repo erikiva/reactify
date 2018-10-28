@@ -13,7 +13,6 @@ export default class Widget extends Component {
     fetch("https://y8iewpw0de.execute-api.us-east-2.amazonaws.com/beta")
       .then(results => results.json())
       .then(data => {
-        console.log({ data: data.data.access_token });
         const token = data.data.access_token;
         this.setState({
           headers: {
@@ -45,7 +44,6 @@ export default class Widget extends Component {
           img: track.album.images[0].url,
           author: track.artists[0].name
         });
-        console.log({ data });
       });
   };
 
